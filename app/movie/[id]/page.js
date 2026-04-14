@@ -1,4 +1,4 @@
-import { fetchMovieDetails, IMG_BASE } from '@/lib/api';
+import { fetchMovieDetails, IMG_BASE } from '../lib/api';
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
