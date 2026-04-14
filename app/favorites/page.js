@@ -1,4 +1,4 @@
-import FavoritesClient from '../components/FavoritesClient';
+import FavoritesClient from '../../components/FavoritesClient';
 
 export const metadata = {
   title: 'My Favorites — Cine·Stream',
