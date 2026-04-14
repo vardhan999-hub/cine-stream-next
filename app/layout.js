@@ -1,6 +1,6 @@
 import './globals.css';
 import Link from 'next/link';
-import NavLinks from '@/components/NavLinks';
+import NavLinks from '../components/NavLinks';
 
 export const metadata = {
   title: 'Cine·Stream — Discover Movies',
