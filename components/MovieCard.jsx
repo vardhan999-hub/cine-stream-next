@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import { IMG_BASE } from '@/lib/api';
+import { IMG_BASE } from '../lib/api';
 
 const StarIcon = () => (
   <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor">
