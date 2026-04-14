@@ -3,8 +3,8 @@
 import { useState, useCallback, useEffect, useRef } from 'react';
 import SearchBar from './SearchBar';
 import MovieGrid from './MovieGrid';
-import { fetchPopularMovies, searchMovies } from '@/lib/api';
-import { getFavorites, toggleFavorite } from '@/lib/favorites';
+import { fetchPopularMovies, searchMovies } from '../lib/api';
+import { getFavorites, toggleFavorite } from '../lib/favorites';
 
 const dedupe = (arr) =>
   Array.from(new Map(arr.map((m) => [m.id, m])).values());
