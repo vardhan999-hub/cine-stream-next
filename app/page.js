@@ -1,5 +1,5 @@
-import { fetchPopularMovies } from '@/lib/api';
-import HomeClient from '@/components/HomeClient';
+import { fetchPopularMovies } from '../lib/api';
+import HomeClient from '../components/HomeClient';
 
 
 export const metadata = {
