@@ -2,7 +2,7 @@
 
 import { useState, useCallback, useEffect, useRef } from 'react';
 import MovieCard from './MovieCard';
-import { getFavorites, toggleFavorite } from '@/lib/favorites';
+import { getFavorites, toggleFavorite } from '../lib/favorites';
 
 const FavoritesClient = () => {
   const [favorites, setFavorites] = useState([]);
