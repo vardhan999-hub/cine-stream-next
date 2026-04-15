@@ -3,6 +3,8 @@
 A production-ready **movie discovery application** built with **Next.js 15 App Router**, focused on Server-Side Rendering (SSR), SEO, and performance.
 
 🔗 **Live Demo:** https://cine-stream-next-ivory.vercel.app/
+
+
 📂 **GitHub Repository:** https://github.com/vardhan999-hub/cine-stream-next
 
 ---
